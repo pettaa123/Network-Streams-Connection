@@ -11,21 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NetworkConnection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI.lib/Network_Streams_Connection.llb/NetworkConnection.lvclass"/>
-		<Item Name="NetworkConnection.lvclass" Type="LVClass" URL="../Network_Streams_Connection/NetworkConnection.lvclass"/>
-		<Item Name="NetworkMessage--Cluster.ctl" Type="VI" URL="../Network_Streams_Connection/NetworkMessage--Cluster.ctl"/>
-		<Item Name="PC_UI.vi" Type="VI" URL="../Network_Streams_Connection/PC_UI.vi"/>
-		<Item Name="PrivateSettings.ctl" Type="VI" URL="../Network_Streams_Connection/PrivateSettings.ctl"/>
-		<Item Name="PublicSettings.ctl" Type="VI" URL="../Network_Streams_Connection/PublicSettings.ctl"/>
-		<Item Name="Read Connected_.vi" Type="VI" URL="../Network_Streams_Connection/Read Connected_.vi"/>
-		<Item Name="Read Public Settings.vi" Type="VI" URL="../Network_Streams_Connection/Read Public Settings.vi"/>
-		<Item Name="ReadFullMessages.vi" Type="VI" URL="../Network_Streams_Connection/ReadFullMessages.vi"/>
-		<Item Name="ReadMessages.vi" Type="VI" URL="../Network_Streams_Connection/ReadMessages.vi"/>
-		<Item Name="RT_Main.vi" Type="VI" URL="../Network_Streams_Connection/RT_Main.vi"/>
-		<Item Name="SendResponseMessage.vi" Type="VI" URL="../Network_Streams_Connection/SendResponseMessage.vi"/>
-		<Item Name="WaitForResponse.vi" Type="VI" URL="../Network_Streams_Connection/WaitForResponse.vi"/>
-		<Item Name="WriteMessage.vi" Type="VI" URL="../Network_Streams_Connection/WriteMessage.vi"/>
-		<Item Name="WriteMultipleMessages.vi" Type="VI" URL="../Network_Streams_Connection/WriteMultipleMessages.vi"/>
+		<Item Name="NetworkConnection.lvclass" Type="LVClass" URL="../NetworkConnection.lvclass"/>
+		<Item Name="PC_UI.vi" Type="VI" URL="../PC_UI.vi"/>
+		<Item Name="RT_Main.vi" Type="VI" URL="../RT_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_numeric__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/openg_numeric__ogtk.lvlib"/>
@@ -36,10 +24,14 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="connect.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/connect.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/Create.vi"/>
+				<Item Name="Destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/Destroy.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Disconnect.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/Disconnect.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -55,7 +47,11 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NetworkCommand--Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/NetworkCommand--Cluster.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="PublicSettings.ctl" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/PublicSettings.ctl"/>
+				<Item Name="Read Connected_.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/Read Connected_.vi"/>
+				<Item Name="ReadMessages.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI.lib/Network_Streams_Connection.llb/ReadMessages.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
